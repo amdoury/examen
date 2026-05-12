@@ -172,6 +172,7 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            margin-top: 20px;
         }
        
 
@@ -208,16 +209,26 @@
         }
         .pop{
           
-            height: 50px;
-            width: 50%;
+            height: 30px;
+            width: 100%;
             margin: 0 auto;
             text-align: center;
+           
         }
         .pop1{
             color: brown;
             font-size: 30px;
              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+             
 
+        }
+        .pop3{
+          
+            height: 30px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 50px;
         }
              .section {
             width: 80%;
