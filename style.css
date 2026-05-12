@@ -94,10 +94,12 @@
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         }
         .btn{
-            height: 40px;
+            height: 60px;
             border-radius: 10px;
             font-size: 20px;
             background-color: white;
+            align-items: center;
+            width: 30%;
           
            
 
@@ -141,13 +143,13 @@
         text-align: center;
         font-size: 20px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        color: brown;
+        color: black;
       }
       .pla{
          text-align: center;
         font-size: 50px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        color: brown;
+        color: black;
 
       }
      .container-section {
@@ -265,13 +267,13 @@
          text-align: center;
         font-size: 40px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        color: brown;
+        color: black;
 
       }
       .pktt{
         font-size: 30px;
          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        color: brown;
+        color: black;
 
       }
         @media(max-width:434px){
@@ -340,23 +342,22 @@ body {
 }
 
 .container {
-  display: flex;
-  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  max-width: 100%;
+
 }
 
 
-.image-section {
-  width: 50%;
-  background: url('deco.jpg') no-repeat center;
-  background-size: cover;
+.image-section img{
+  width: 100%;
 }
 
 
 .form-section {
-  width: 50%;
+  width: 80%;
   background: #f8f6f2;
-  padding: 40px;
-  display: flex;
+  padding: 30px;
   align-items: center;
 }
 
@@ -395,6 +396,24 @@ button {
 button:hover {
   background: #e69500;
 }
+ @media(max-width:1024px){
+          .container{
+            grid-template-columns: repeat(2,1fr);
+          }
+          .image-section{
+            width: 100%;
+            height: 850px;
+          }
+        }
+        @media(max-width:434px){
+          .container{
+            grid-template-columns: repeat(1,1fr);
+          }
+          .footer-container{
+            width: 100%;
+          }
+        }
+
 .abou {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -432,3 +451,18 @@ button:hover {
             grid-template-columns: repeat(1,1fr);
           }
         }
+        .ga{
+          height: 20px;
+          text-align: center;
+          
+         
+        }
+        .gaa{
+          font-size: 30px;
+          color: #e69500;
+        }
+        .cc{
+          color: black;
+          font-size: 20px;
+        }
+        
